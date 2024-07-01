@@ -1,11 +1,11 @@
 {
   "manifest_version":2
-  ,"name":"t.co bypass for twitter.com and tweetdeck.com"
+  ,"name":"t.co bypass for x.com, twitter.com, and tweetdeck.com"
   ,"description":"don't like t.co redirect? try this out"
   ,"version":"1.0.16"
   ,"content_scripts":[
     {
-      "matches":["https://twitter.com/*", "https://tweetdeck.com/*", "https://tweetdeck.twitter.com/*"]
+      "matches":["https://x.com/*", "https://twitter.com/*", "https://tweetdeck.com/*", "https://tweetdeck.twitter.com/*"]
       ,"js":["greasemonkey.user.js"]
     }
   ]
